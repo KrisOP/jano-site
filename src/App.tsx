@@ -1,6 +1,7 @@
 import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 import janoLogo from './assets/jano-logo.jpg'
+import building from './assets/building.png'
 //import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -20,11 +21,15 @@ function App() {
         <a href="https://www.facebook.com/curso.de.filosofia.en.managua/" target="_blank">
           <img src={janoLogo} className="logo react jano" alt="React logo" />
         </a>
+
+        <figure >
+          <img src={building} alt="building" className='building' />
+        </figure>
        
 
         
       </div>
-      <h1>Jano - Espacio cultural</h1>
+      <h1>Building...</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -33,9 +38,9 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
