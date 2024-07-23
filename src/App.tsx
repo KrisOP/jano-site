@@ -40,6 +40,10 @@ function App() {
       </div>
       <p className="read-the-docs">
        Sitio en construccion
+       <br />
+        <a href="https://www.facebook.com/curso.de.filosofia.en.managua/" target="_blank">
+          Facebook
+        </a> 
       </p>
     </>
   )
